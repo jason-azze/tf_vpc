@@ -4,6 +4,7 @@ A lightweight VPC module for Terraform.
 
 ## Usage
 
+```
 module "vpc" {
   source = "https://github.com/jason-azze/tf_vpc"
   name = "vpc_name"
@@ -11,6 +12,7 @@ module "vpc" {
   public_subnet = "10.0.1.0/24"
 }
 
+```
 See `interface.tf` for additional configurable variables.
 
 ## License
